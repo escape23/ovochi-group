@@ -15,13 +15,14 @@
 @import url('./modal.css');
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color: #141414;
-  background-color: #ffffff;
+  --text-color: #141414;
+  --background-color: #ffffff;
+  --white-color: #ffffff;
+  --green-background: #A1C487;
+  --light-green-background: #EAF7E5;
+  --orange-background: #FC8A11;
+  --sand-background: #FAF3E7;
+  --gray-color: #F3F3F3;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
