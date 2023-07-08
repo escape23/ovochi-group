@@ -1,12 +1,11 @@
 .header {
-
+padding: 16px 20px;
 }
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     outline: 2px solid red;
-    padding: 16px 20px;
     }
 
 .header-logo-span {
@@ -35,5 +34,25 @@ text-transform: uppercase;
 }
 .mob-menu {
 }
+.mob-menu-container {
+}
+.container {
+}
+.mob-menu-top {
+}
+.header-logo-link {
+}
+.header-logo-span {
+}
 .mob-menu-close {
+}
+.mob-close-icon {
+}
+.mob-menu-nav {
+}
+.mob-menu-list {
+}
+.mob-menu-item {
+}
+.mob-menu-basket {
 }
