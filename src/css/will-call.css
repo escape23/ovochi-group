@@ -1,6 +1,7 @@
 .will {
   padding-top: 80px;
   padding-bottom: 80px;
+  min-width: 320px;
 }
 .will-title {
   color: var(--text-color);
@@ -31,14 +32,15 @@
   margin-bottom: 40px;
 }
 .will-recall-form {
-  display: flex;
   position: relative;
   margin-bottom: 40px;
+  justify-content: center;
 }
 
 .recall-iput {
   padding-left: 24px;
-  min-width: 260px;
+  width: 100%;
+
   height: 48px;
   border-radius: 100px;
   border: 1px solid var(--text-color);
@@ -61,16 +63,14 @@
   z-index: 999;
 }
 .will-background {
-  max-width: 335px;
+  height: 388px;
   display: flex;
   align-items: end;
   border-radius: 40px;
   position: relative;
-  max-width: 335px;
-  max-height: 388px;
   background-color: var(--sand-background);
   background-image: radial-gradient(
-    rgba(161, 196, 135, 0.69) 2.5px,
+    rgba(161, 196, 135, 0.31) 2.5px,
     transparent 0
   );
   background-size: 41px 41px;
@@ -81,8 +81,61 @@
   width: 335px;
   height: 357px;
 }
-@media screen and (min-width: 375px) {
+
+@media screen and (max-width: 767px) {
+  .girl-img-tab {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .will {
+    padding-top: 100px;
+    padding-bottom: 173px;
+  }
+  .will-title {
+    text-align: start;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -1.6px;
+    max-width: 524px;
+  }
+  .will-text {
+    text-align: start;
+    max-width: 499px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.33;
+    letter-spacing: -0.72px;
+  }
+  .will-recall-form {
+    margin-bottom: 80px;
+  }
   .recall-iput {
-    min-width: 335px;
+    width: 350px;
+    margin-left: 189.5px;
+  }
+  .girl-img-mob {
+    display: none;
+  }
+  .will-girl {
+    width: 704px;
+    height: 463px;
+  }
+
+  .girl-img-tab {
+    display: block;
+    margin: 0 auto;
+    margin-top: 17px;
+  }
+  .will-background {
+    width: 704px;
+    height: 463px;
   }
 }
