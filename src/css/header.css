@@ -1,2 +1,39 @@
 .header {
+
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    outline: 2px solid red;
+    padding: 16px 20px;
+    }
+
+.header-logo-span {
+    margin-right: 8px;
+}
+
+.header-navigation {
+    display: flex;
+    flex-grow: 1;
+}
+.header-logo-link {
+    display: flex;
+    color: var(--text-color);
+font-weight: 700;
+line-height: 1.29;
+letter-spacing: -0.56px;
+text-transform: uppercase;
+}
+
+.mob-menu-open {
+    border: none;
+    background-color: transparent;
+}
+.mob-open-icon {
+    fill: #77AC63;
+}
+.mob-menu {
+}
+.mob-menu-close {
 }
