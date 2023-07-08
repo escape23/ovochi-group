@@ -50,3 +50,9 @@ img {
   padding: 0 15px;
   margin: 0 auto;
 }
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
