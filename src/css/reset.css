@@ -1,6 +1,6 @@
 /* Reset styles */
 body {
-  font-family: 'DM Sans', sans-serif;
+  font-family: var(--main-font);
   color: var(--text-color);
   background-color: var(--background-color);
 }
