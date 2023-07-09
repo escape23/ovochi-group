@@ -1,2 +1,158 @@
-.works{
+.container {
+  padding: 0 20px;
+  margin: 0 auto;
+  /* outline: 1px solid; */
+}
+
+/* VEGETABLES */
+
+.works {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.works-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.works-top {
+  margin-bottom: 20px;
+}
+
+.order-caption {
+  font-family: 'DM Sans Medium';
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: -1.12px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.order-text {
+  font-family: 'DM Sans Regular';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.33;
+  letter-spacing: -0.04em;
+  color: #141414;
+}
+
+.order-text-left {
+  margin-bottom: 20px;
+}
+
+.order-img-tabl {
+  display: none;
+}
+.order-img-desk {
+  display: none;
+}
+
+.order-img-mob {
+  display: block;
+  width: 100%;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+
+  .works {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .works-top {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 40px;
+  }
+
+  .order-img-mob {
+    display: none;
+    /* max-width: 310px; */
+  }
+  .order-img-desk {
+    display: none;
+    /* max-width: 310px; */
+  }
+  .order-img-tabl {
+    display: block;
+  }
+
+
+  .order-caption {
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: -1.6px;
+    margin-bottom: 0;
+  }
+
+  .order-text {
+  }
+
+  .order-text-left {
+    min-width: 317px;
+    max-width: 317px;
+    margin-bottom: 0;
+  }
+
+  .works-bottom {
+    display: flex;
+    max-width: 616px;
+    gap: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+
+  .works {
+    padding-top: 124px;
+    padding-bottom: 124px;
+  }
+
+  .order-img-mob {
+    display: none;
+  }
+  .order-img-tabl {
+    display: none;
+  }
+  .order-img-desk {
+    display: block;
+  }
+
+  .order-caption {
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: -1.92px;
+  }
+
+  .works-top {
+    gap: 192px;
+  }
+
+  .works-bottom {
+    max-width: 687px;
+    gap: 40px;
+  }
+
+  .order-text-left {
+    min-width: 353px;
+    max-width: 353px;
+  }
+
 }
