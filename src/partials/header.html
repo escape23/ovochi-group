@@ -1,35 +1,35 @@
 <header class="header">
   <div class="header-container container">
     <nav class="header-navigation">
-      <a href="/" class="header-logo-link"><span class="header-logo-span">
-        <img src="../public/logo.svg" alt="header logo icon" width="16" height="16"/></span>
+      <a href="/" class="header-logo-link">
+        <svg width="16" height="16" class="header-logo-icon"><use href="./img/icons.svg#icon-logo"></use></svg>
         Veggieboost
       </a>
     </nav>
-    <button type="button" class="mob-menu-open">
+    <button type="button" class="mob-menu-open" data-menu-open>
       <svg class="mob-open-icon" width="24" height="24">
-        <use href="../img/icons.svg#icon-basket"></use>
+        <use href="./img/icons.svg#icon-menu"></use>
       </svg>
     </button>
   </div>
-  <div class="mob-menu is-hidden">
+  <div class="mob-menu is-hidden" data-menu>
   <div class="mob-menu-top header-container">
-    <a href="/" class="header-logo-link"><span class="header-logo-span">
-      <img src="../public/logo.svg" alt="header logo icon" width="16" height="16"/></span>
-      Veggieboost
-    </a>
-    <button type="button" class="mob-menu-close">
+    <a href="/" class="header-logo-link">
+        <svg width="16" height="16" class="header-logo-icon"><use href="./img/icons.svg#icon-logo"></use></svg>
+        Veggieboost
+      </a>
+    <button type="button" class="mob-menu-close" data-menu-close>
       <svg class="mob-close-icon" width="24" height="24">
-        <use href="../img/icons.svg#icon-basket"></use>
+        <use href="./img/icons.svg#icon-close"></use>
       </svg>
     </button>
   </div>
     <div class="mob-menu-nav">
       <ul class="mob-menu-list">
-        <li class="mob-menu-item"><a class="mob-menu-link">How It Works</a></li>
-        <li class="mob-menu-item"><a class="mob-menu-link">Vegetables</a>  </li>
-        <li class="mob-menu-item"><a class="mob-menu-link">Contacts</a></li>
-        <li class="mob-menu-item"><button type="button" class="mob-menu-basket"><svg class="mob-menu-svg" width="24" height="24"><use href="../img/icons.svg#icon-basket"></use></svg></button></li>
+        <li class="mob-menu-item"><a href="./how-it-works.html" class="mob-menu-link">How It Works</a></li>
+        <li class="mob-menu-item"><a href="./vegetables.html" class="mob-menu-link">Vegetables</a>  </li>
+        <li class="mob-menu-item"><a href="#will" class="mob-menu-link">Contacts</a></li>
+        <li class="mob-menu-item"><button type="button" class="mob-menu-basket"><svg class="mob-menu-svg" width="24" height="24"><use href="./img/icons.svg#icon-basket"></use></svg></button></li>
       </ul>
     </div>
 </div>
