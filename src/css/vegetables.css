@@ -1,2 +1,105 @@
-.vegetables{
+.vegetables {
+  background-color: var(--background-color);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  min-width: 320px;
+}
+.vegetables-text-conteiner {
+  width: 335px;
+  margin: 0 auto;
+}
+.vegetables-title {
+  color: #141414;
+  text-align: center;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.16;
+  letter-spacing: -0.04em;
+  margin-bottom: 14px;
+}
+.vegetables-text {
+  color: #141414;
+  text-align: center;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.04em;
+  margin-bottom: 40px;
+  max-width: 335px;
+  margin: 0 auto;
+}
+
+.vegetables-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 40px;
+}
+
+.vegetables-item {
+  /* width: calc((100% - 20px * 8) / 9); */
+  width: 335px;
+  height: 443px;
+  border-radius: 20px;
+  background: #eaf7e5;
+  position: relative;
+}
+.vegetables-item-text {
+  color: #141414;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: -0.04em;
+  padding-top: 40px;
+  padding-left: 20px;
+}
+.vegetables-item-text1 {
+  color: #141414;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  margin-top: 8px;
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+.vegetables-img {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.vegetables-item-text2 {
+  color: #141414;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.28;
+  letter-spacing: -0.04em;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-top: 48px;
+}
+.vegetables-icon {
+  fill: #141414;
+  /* opacity: 0.10000000149011612; */
+  filter: blur(13.591408729553223px);
+  flex-wrap: wrap;
+}
+.vegetables-img-conteiner {
+  width: 100%;
+  height: auto;
 }
