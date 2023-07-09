@@ -1,2 +1,225 @@
-.hero{
+.hero {
+  background-color: var(--green-background);
+  padding: 48px 0 20px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.hero-left {
+  margin-bottom: 8px;
+}
+.hero-reviews-list {
+  display: flex;
+  margin-bottom: 14px;
+}
+.hero-reviews-item:not(:first-child) {
+  margin-left: -15px;
+}
+.hero-reviews-img {
+  border: 2px solid var(--white-color);
+  border-radius: 50%;
+}
+.hero-reviews-box {
+  background-color: var(--white-color);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+}
+.hero-reviews-box-top {
+  font-size: 14px;
+
+  line-height: 1;
+  letter-spacing: -0.56px;
+  text-transform: uppercase;
+  font-family: 'DM Sans Medium';
+}
+.hero-reviews-box-bottom {
+  font-size: 8px;
+
+  line-height: 1.25;
+  letter-spacing: -0.32px;
+  font-family: 'DM Sans Regular';
+}
+.hero-title {
+  font-size: 40px;
+
+  line-height: 1.1;
+  letter-spacing: -1.6px;
+  text-transform: uppercase;
+  color: var(--white-color);
+  margin-bottom: 14px;
+  font-family: 'DM Sans Medium';
+}
+.hero-title span {
+  color: var(--light-green-background);
+  font-style: italic;
+}
+.hero-text {
+  color: var(--white-color);
+  font-size: 14px;
+
+  line-height: 1.2;
+  letter-spacing: -0.56px;
+  margin-bottom: 20px;
+  font-family: 'DM Sans Regular';
+}
+.hero-btn {
+  background-color: var(--sand-background);
+  color: var(--orange-background);
+  border: none;
+  width: 68px;
+  height: 68px;
+  transform: rotate(-14deg);
+  border-radius: 50%;
+  font-size: 14px;
+
+  line-height: 1.14;
+  letter-spacing: -0.56px;
+  text-transform: uppercase;
+  transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+  font-family: 'DM Sans Medium';
+}
+.hero-btn:is(:hover, :focus) {
+  background-color: var(--light-green-background);
+  color: var(--green-background);
+}
+
+.hero-img img {
+  width: 278px;
+  margin: 0 auto 16px;
+}
+.hero-tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  max-width: 169px;
+  margin-left: auto;
+}
+.hero-tag-span {
+  display: block;
+  font-size: 10px;
+  line-height: 1.2;
+  letter-spacing: -0.4px;
+  text-transform: uppercase;
+  color: var(--white-color);
+  padding: 7px 13px;
+  border-radius: 1000px;
+  border: 1px solid var(--white-color);
+  font-family: 'DM Sans Medium';
+}
+.hero-tag-item:first-child .hero-tag-span {
+  background-color: var(--white-color);
+  color: var(--text-color);
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    padding: 64px 0 32px;
+  }
+  .hero-reviews-list {
+    margin-bottom: 16px;
+  }
+  .hero-reviews-item:not(:first-child) {
+    margin-left: -19px;
+  }
+  .hero-reviews-img,
+  .hero-reviews-box {
+    width: 54px;
+    height: 54px;
+  }
+  .hero-reviews-box-top {
+    font-size: 18px;
+    letter-spacing: -0.72px;
+  }
+  .hero-reviews-box-bottom {
+    font-size: 10px;
+    line-height: 1.2;
+  }
+  .hero-title {
+    font-size: 54px;
+    letter-spacing: -2.16px;
+    margin-bottom: 16px;
+  }
+  .hero-text {
+    margin-bottom: 32px;
+    max-width: 490px;
+  }
+  .hero-btn {
+    width: 114px;
+    height: 114px;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: -0.96px;
+  }
+
+  .hero-img img {
+    width: 466px;
+    margin-bottom: 8px;
+  }
+  .hero-tag-list {
+    gap: 8px 4px;
+    max-width: 214px;
+  }
+  .hero-tag-span {
+    font-size: 12px;
+    padding: 9px 19px;
+    letter-spacing: -0.48px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hero {
+    padding-top: 132px;
+  }
+  .hero .container {
+    display: flex;
+    gap: 29px;
+  }
+  .hero-left {
+    margin-bottom: 0;
+    max-width: 672px;
+  }
+  .hero-reviews-list {
+    margin-bottom: 18px;
+  }
+  .hero-reviews-item:not(:first-child) {
+    margin-left: -25px;
+  }
+  .hero-reviews-img,
+  .hero-reviews-box {
+    width: 70px;
+    height: 70px;
+  }
+  .hero-reviews-box-top {
+    font-size: 24px;
+    letter-spacing: -0.96px;
+  }
+  .hero-reviews-box-bottom {
+    font-size: 12px;
+    letter-spacing: -0.48px;
+  }
+  .hero-title {
+    font-size: 64px;
+    line-height: 1.17;
+    letter-spacing: -2.56px;
+  }
+  .hero-btn {
+    width: 132px;
+    height: 132px;
+    font-size: 28px;
+    letter-spacing: -1.12px;
+  }
+  .hero-img img {
+    width: 515px;
+    margin-bottom: 64px;
+  }
+  .hero-tag-list {
+    gap: 8px;
+    max-width: 266px;
+  }
+  .hero-tag-span {
+    padding: 11px 31px;
+  }
 }
