@@ -59,8 +59,13 @@
   font-style: normal;
   font-weight: 400;
   line-height: 1.28;
-  letter-spacing: -0.56px;
-  z-index: 999;
+  letter-spacing: -0.56px; 
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.will-button:is(:hover, :focus) {
+  background-color: var(--green-background);
 }
 .will-background {
   height: 388px;
@@ -77,6 +82,18 @@
   background-repeat: repeat;
   margin: 0 auto;
 }
+/* .will-background {
+  height: 388px;
+  display: flex;
+  align-items: end;
+  border-radius: 40px;
+  position: relative;
+  background-color: var(--sand-background);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 5 5'%3E%3Ccircle cx='2.5' cy='2.5' r='0.3' fill='%23a1c487' fill-opacity='0.31' /%3E%3C/svg%3E");
+  background-size: 41px 41px;
+  background-repeat: repeat;
+  margin: 0 auto;
+} */
 .will-girl {
   width: 335px;
   height: 357px;
@@ -86,10 +103,20 @@
   .girl-img-tab {
     display: none;
   }
+  .girl-img-web{
+    display: none;
+  }
 }
-@media screen and (min-width: 768px) {
-  .container {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .girl-img-mob {
+    display: none;
+  }
+  .girl-img-web{
+    display: none;
+  }
+  .will {
     max-width: 768px;
+    margin: 0 auto;
   }
   .will {
     padding-top: 100px;
@@ -121,9 +148,6 @@
     width: 350px;
     margin-left: 189.5px;
   }
-  .girl-img-mob {
-    display: none;
-  }
   .will-girl {
     width: 704px;
     height: 463px;
@@ -138,4 +162,76 @@
     width: 704px;
     height: 463px;
   }
+}
+@media screen and (min-width: 1280px) {
+  .will {
+    padding-top: 124px;
+    padding-bottom: 124px;
+  }
+  .will-container {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .girl-img-tab {
+    display: none;
+  }
+  .girl-img-mob {
+    display: none;
+  }
+  .will {
+    max-width: 1216px;
+    margin: 0 auto;
+  }
+  .will-left {
+    align-self: center;
+    
+  }
+  .will-text {
+   
+    max-width: 614px;
+
+  }
+.will-title {
+  text-align: start;  
+  max-width: 590px;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.04;
+letter-spacing: -1.92px;
+text-transform: uppercase;
+margin: 0;
+}
+
+  .will-lorem {
+    width: 523px;   
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.33;
+    letter-spacing: -0.72px; 
+    text-align: start;
+    margin-bottom: 80px;
+  }
+  .will-girl {
+    width: 525px;
+    height: 499px;
+  }
+  .will-title {
+    margin-bottom: 40px;
+  }
+
+  .will-recall-form {
+    width: 350px;
+    align-self: self-end;
+
+    margin-bottom: 0;
+  }
+  .will-background {
+    width: 525px;
+    height: 536px;
+    margin-right:  0;
+  }
+
 }
