@@ -4,7 +4,7 @@
   | default @import url()
   |============================
 */
-
+@import url('./fonts.css');
 @import url('./reset.css');
 @import url('./header.css');
 @import url('./hero.css');
@@ -24,6 +24,9 @@
   --orange-background: #fc8a11;
   --sand-background: #faf3e7;
   --gray-color: #f3f3f3;
+  --main-font: 'DM Sans Regular';
+  --sub-title-font: 'DM Sans Medium';
+  --title-font: 'DM Sans Bold';
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -32,29 +35,3 @@
   -webkit-text-size-adjust: 100%;
 }
 
-@font-face {
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-  src: local('DM Sans'), url(../fonts/DMSans-Regular.woff2) format(woff2),
-    url(../fonts/DMSans-Regular.woff) format(woff);
-}
-
-@font-face {
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-  src: local('DM Sans'), url(../fonts/DMSans-Medium.woff2) format(woff2),
-    url(../fonts/DMSans-Medium.woff) format(woff);
-}
-
-@font-face {
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-  src: local('DM Sans'), url(../fonts/DMSans-Bold.woff2) format(woff2),
-    url(../fonts/DMSans-Bold.woff) format(woff);
-}
