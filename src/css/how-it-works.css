@@ -1,9 +1,3 @@
-.container {
-  padding: 0 20px;
-  margin: 0 auto;
-  /* outline: 1px solid; */
-}
-
 /* VEGETABLES */
 
 .works {
@@ -56,14 +50,14 @@
 }
 
 @media screen and (min-width: 375px) {
-  .container {
+  .works-container {
     max-width: 375px;
   }
 
 }
 
 @media screen and (min-width: 768px) {
-  .container {
+  .works-container {
     max-width: 768px;
     padding: 0 32px;
   }
@@ -116,7 +110,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
+  .works-container {
     max-width: 1280px;
   }
 
