@@ -13,8 +13,8 @@
     />
     <title>Veggie Boost</title>
     
-    <script type="module" crossorigin src="/ovochi-group/assets/index-d68f7204.js"></script>
-    <link rel="stylesheet" href="/ovochi-group/assets/index-3942ea3c.css">
+    <script type="module" crossorigin src="/ovochi-group/assets/index-586c99a7.js"></script>
+    <link rel="stylesheet" href="/ovochi-group/assets/index-19966c7c.css">
   </head>
   <body>
     <!-- Vladyslav Savytskyi -->
@@ -251,7 +251,7 @@
       <!-- Mariia Hrim -->
       <!-- Hrim Mariia -->
 <section class="vegetables" id="vegetables">
-  <div class="conteiner">
+  <div class="container">
     <!-- <div class="vegetables-conteiner"> -->
     <h3 class="vegetables-title">ORGANIC VEGATABLES</h3>
     <p class="vegetables-text">
@@ -264,118 +264,168 @@
       <li class="vegetables-item">
         <p class="vegetables-item-text">Carrot</p>
         <p class="vegetables-item-text1">Plant</p>
-
-        <img
-          srcset="
-                ./img/vegetables/carrot-mob-min.png 1x, ../img/vegetables/carrot-mob2x-min.png
-                ./img/vegetables/
-              "
-          src="/ovochi-group/assets/carrot-mob-min-8150d122.png"
-          class="vegetables-img"
-          alt="Carrot"
-          width="299"
-          height="249"
-        />
+        <picture class="vegetables-img">
+          <source
+            media="(max-width: 767px)"
+            srcset="/ovochi-group/assets/carrot-mob-min-8150d122.png 1x, /ovochi-group/assets/carrot-mob2x-min-f07de24d.png 2x"
+          />
+          <source
+            media="(min-width: 768px) and (max-width:1279px)"
+            srcset="/ovochi-group/assets/carrot-tab-min-36f76dd6.png 1x, /ovochi-group/assets/carrot-tab2x-min-d37a7952.png 2x"
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="/ovochi-group/assets/carrot-tab-min-36f76dd6.png 1x, /ovochi-group/assets/carrot-tab2x-min-d37a7952.png 2x"
+          />
+          <img src="/ovochi-group/assets/carrot-mob-min-8150d122.png" alt="carrot" />
+        </picture>
 
         <p class="vegetables-item-text2">100 UAH / kg</p>
       </li>
       <li class="vegetables-item">
         <p class="vegetables-item-text">Brussel sprouts</p>
         <p class="vegetables-item-text1">Plant</p>
-        <img
-          srcset="/ovochi-group/assets/brussel-mob-min-b3c8842e.png 1x, /ovochi-group/assets/brussel-mob2x-min-167d944c.png 2x"
-          src="/ovochi-group/assets/brussel-mob-min-b3c8842e.png"
-          class="vegetables-img"
-          alt="Brussel"
-          width="299"
-          height="249"
-        />
+        <picture class="vegetables-img">
+          <source
+            media="(max-width: 767px)"
+            srcset="/ovochi-group/assets/brussel-mob-min-b3c8842e.png 1x, /ovochi-group/assets/brussel-mob2x-min-167d944c.png 2x"
+          />
+          <source
+            media="(min-width: 768px) and (max-width:1279px)"
+            srcset="/ovochi-group/assets/brussel-tab-min-6fe1cac0.png 1x, /ovochi-group/assets/brussel-tab2x-min-eb4459be.png 2x"
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="/ovochi-group/assets/brussel-tab-min-6fe1cac0.png 1x, /ovochi-group/assets/brussel-tab2x-min-eb4459be.png 2x"
+          />
+          <img src="/ovochi-group/assets/brussel-mob-min-b3c8842e.png" alt="brussel" />
+        </picture>
 
         <p class="vegetables-item-text2">80 UAH / kg</p>
       </li>
       <li class="vegetables-item">
         <p class="vegetables-item-text">Tomato</p>
         <p class="vegetables-item-text1">Plant</p>
-        <img
-          srcset="/ovochi-group/assets/tomato-mob-min-f55a9415.png 1x, /ovochi-group/assets/tomato-mob2x-min-49247bcb.png 2x"
-          src="/ovochi-group/assets/tomato-mob-min-f55a9415.png"
-          class="vegetables-img"
-          alt="Tomato"
-          width="299"
-          height="249"
-        />
-        <svg class="vegetables-icon">
-          <use href="../img/vegetables/oval-defs.svg#icon-oval"></use>
-        </svg>
+        <picture class="vegetables-img">
+          <source
+            media="(max-width: 767px)"
+            srcset="/ovochi-group/assets/tomato-mob-min-f55a9415.png 1x, /ovochi-group/assets/tomato-mob2x-min-49247bcb.png 2x"
+          />
+          <source
+            media="(min-width: 768px) and (max-width:1279px)"
+            srcset="/ovochi-group/assets/tomato-tab-min-984c3e16.png 1x, /ovochi-group/assets/tomato-tab2x-min-6c1b79c4.png 2x"
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="/ovochi-group/assets/tomato-tab-min-984c3e16.png 1x, /ovochi-group/assets/tomato-tab2x-min-6c1b79c4.png 2x"
+          />
+          <img src="./img/vegetables/tomato-tab-min.png  " alt="tomato" />
+        </picture>
+
         <p class="vegetables-item-text2">40 UAH / kg</p>
       </li>
       <li class="vegetables-item">
         <p class="vegetables-item-text">Eggplant</p>
         <p class="vegetables-item-text1">Plant</p>
-        <img
-          srcset="/ovochi-group/assets/eggplant-mob-min-9ff316fc.png 1x, /ovochi-group/assets/eggplant-mob2x-min-dd00d969.png 2x"
-          src="/ovochi-group/assets/eggplant-mob-min-9ff316fc.png"
-          class="vegetables-img"
-          alt="Eggplant"
-          width="299"
-          height="249"
-        />
+        <picture class="vegetables-img">
+          <source
+            media="(max-width: 767px)"
+            srcset="/ovochi-group/assets/egglant-mob-min-9ff316fc.png 1x, /ovochi-group/assets/egglant-mob2x-min-dd00d969.png 2x"
+          />
+          <source
+            media="(min-width: 768px) and (max-width:1279px)"
+            srcset="/ovochi-group/assets/egglant-tab-min-6b75f4ed.png 1x, /ovochi-group/assets/egglant-tab2x-min-4b4b8617.png 2x"
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="/ovochi-group/assets/egglant-tab-min-6b75f4ed.png 1x, /ovochi-group/assets/egglant-tab2x-min-4b4b8617.png 2x"
+          />
+          <img src="./img/vegetables/egglant-mob-min.png " alt="eggplant" />
+        </picture>
 
         <p class="vegetables-item-text2">60 UAH / kg</p>
       </li>
       <li class="vegetables-item">
         <p class="vegetables-item-text">Sweet potatoes</p>
         <p class="vegetables-item-text1">Plant</p>
-        <img
-          srcset="/ovochi-group/assets/potatoes-mob-min-08be08ae.png 1x, /ovochi-group/assets/potatoes-mob2x-min-ccd5d4c9.png 2x"
-          src="/ovochi-group/assets/potatoes-mob-min-08be08ae.png"
-          class="vegetables-img"
-          alt="potatoes"
-          width="299"
-          height="249"
-        />
+        <picture class="vegetables-img">
+          <source
+            media="(max-width: 767px)"
+            srcset="/ovochi-group/assets/potatoes-mob-min-08be08ae.png 1x, /ovochi-group/assets/potatoes-mob2x-min-ccd5d4c9.png 2x"
+          />
+          <source
+            media="(min-width: 768px) and (max-width:1279px)"
+            srcset="/ovochi-group/assets/potatoes-tab-min-b07b0ce6.png 1x, /ovochi-group/assets/potatoes-tab2x-min-47d791f1.png 2x"
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="/ovochi-group/assets/potatoes-tab-min-b07b0ce6.png 1x, /ovochi-group/assets/potatoes-tab2x-min-47d791f1.png 2x"
+          />
+          <img src="./img/vegetables/potatoes-mob-min.png " alt="potatoes" />
+        </picture>
 
         <p class="vegetables-item-text2">80 UAH / kg</p>
       </li>
       <li class="vegetables-item">
         <p class="vegetables-item-text">Leek</p>
         <p class="vegetables-item-text1">Plant</p>
-        <img
-          srcset="/ovochi-group/assets/leek-mob-min-21e453aa.png 1x, /ovochi-group/assets/leek-mob2x-min-a2c72f7e.png 2x"
-          src="/ovochi-group/assets/leek-mob-min-21e453aa.png"
-          class="vegetables-img"
-          alt="Leek"
-          width="299"
-          height="249"
-        />
+        <picture class="vegetables-img">
+          <source
+            media="(max-width: 767px)"
+            srcset="/ovochi-group/assets/leek-mob-min-21e453aa.png 1x, /ovochi-group/assets/leek-mob2x-min-a2c72f7e.png 2x"
+          />
+          <source
+            media="(min-width: 768px) and (max-width:1279px)"
+            srcset="/ovochi-group/assets/leek-tab-min-fcf6fd37.png 1x, /ovochi-group/assets/leek-tab2x-min-140773f6.png 2x"
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="/ovochi-group/assets/leek-tab-min-fcf6fd37.png 1x, /ovochi-group/assets/leek-tab2x-min-140773f6.png 2x"
+          />
+          <img src="./img/vegetables/leek-mob-min.png " alt="leek" />
+        </picture>
 
         <p class="vegetables-item-text2">50 UAH / kg</p>
       </li>
       <li class="vegetables-item">
         <p class="vegetables-item-text">Mushrooms</p>
         <p class="vegetables-item-text1">Plant</p>
-        <img
-          srcset="/ovochi-group/assets/mushrooms-mob-min-8ffa71c3.png 1x, /ovochi-group/assets/mushrooms-mob2x-min-93fad7b3.png 2x"
-          src="/ovochi-group/assets/mushrooms-mob-min-8ffa71c3.png"
-          class="vegetables-img"
-          alt="Mushrooms"
-          width="299"
-          height="249"
-        />
+        <picture class="vegetables-img">
+          <source
+            media="(max-width: 767px)"
+            srcset="/ovochi-group/assets/mushrooms-mob-min-8ffa71c3.png 1x, /ovochi-group/assets/mushrooms-mob2x-min-93fad7b3.png 2x"
+          />
+          <source
+            media="(min-width: 768px) and (max-width:1279px)"
+            srcset="/ovochi-group/assets/mushrooms-tab-min-ecbf6124.png 1x, /ovochi-group/assets/mushrooms-tab2x-min-a0be6c43.png 2x"
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="/ovochi-group/assets/mushrooms-tab-min-ecbf6124.png 1x, /ovochi-group/assets/mushrooms-tab2x-min-a0be6c43.png 2x"
+          />
+          <img src="./img/vegetables/mushrooms-mob-min.png " alt="mushrooms" />
+        </picture>
 
         <p class="vegetables-item-text2">40 UAH / kg</p>
       </li>
       <li class="vegetables-item">
         <p class="vegetables-item-text">Corn</p>
         <p class="vegetables-item-text1">Plant</p>
-        <img
-          srcset="/ovochi-group/assets/corn-mob-min-2340d07f.png 1x, /ovochi-group/assets/corn-mob2x-min-b0976984.png 2x"
-          src="/ovochi-group/assets/corn-mob-min-2340d07f.png"
-          class="vegetables-img"
-          alt="Corn"
-          width="299"
-          height="249"
-        />
+        <picture class="vegetables-img">
+          <source
+            media="(max-width: 767px)"
+            srcset="/ovochi-group/assets/corn-mob-min-2340d07f.png 1x, /ovochi-group/assets/corn-mob2x-min-b0976984.png 2x"
+          />
+          <source
+            media="(min-width: 768px) and (max-width:1279px)"
+            srcset="/ovochi-group/assets/corn-tab-min-43b08dfb.png 1x, /ovochi-group/assets/corn-tab2x-min-c8b611dc.png 2x"
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="/ovochi-group/assets/corn-tab-min-43b08dfb.png 1x, /ovochi-group/assets/corn-tab2x-min-c8b611dc.png 2x"
+          />
+          <img src="./img/vegetables/corn-mob-min.png " alt="corn" />
+        </picture>
 
         <p class="vegetables-item-text2">60 UAH / kg</p>
       </li>
@@ -384,7 +434,7 @@
         <p class="vegetables-item-text1">Plant</p>
         <img
           srcset="/ovochi-group/assets/radish-tab-min-f7438eac.png 1x, /ovochi-group/assets/radish-tab2x-min-6bee5829.png 2x"
-          src="../img/vegetables/radish-tab-min.png"
+          src="/ovochi-group/assets/radish-tab-min-f7438eac.png"
           class="vegetables-img"
           alt="Radish"
           width="299"
@@ -397,7 +447,7 @@
 
     <button type="button" class="vegetables-btn" data-modal-open>
       <svg class="vegetables-vector">
-        <use href="../img/vegetables/oval-defs.svg#icon-vector-4"></use></svg
+        <use href="/ovochi-group/assets/oval-defs-74891636.svg#icon-vector-4"></use></svg
       >ORDER
     </button>
   </div>
