@@ -30,8 +30,9 @@
     border: none;
     cursor: pointer;
     stroke: var(--text-color);
+    transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-close-icon {
+.modal-close-btn:is(:hover, :focus) {stroke: var(--green-background);
 }
 .modal-title {
     margin-bottom: 40px;
@@ -79,6 +80,7 @@
     align-items: center;
     justify-content: center;
     fill: transparent;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 .check-icon{width: 6px;
     height: 6px}
@@ -123,7 +125,9 @@
     line-height: 1.29;
     letter-spacing: -0.04em;
     color: rgba(20, 20, 20, 0.50);
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
     }
+.modal-input:focus {border: 1px solid var(--green-background); background-color: var(--light-green-background)}
 .modal-textarea {width: 100%;
     height: 132px;
     border-radius: 20px;
@@ -140,7 +144,9 @@
     color: rgba(20, 20, 20, 0.50);
     outline: transparent;
     display: block;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
+.modal-textarea:focus {border: 1px solid var(--green-background); background-color: var(--light-green-background)}
 .modal-submit-btn {font-family: var(--main-font);
     font-weight: 400;
     font-size: 14px;
@@ -155,7 +161,9 @@
     min-width: 92px;
     padding: 12px 24px;
     margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
+.modal-submit-btn:is(:hover, :focus){background-color: var(--green-background)}
 .visually-hidden {
     position: absolute;
     width: 1px;
