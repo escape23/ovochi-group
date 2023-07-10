@@ -1,6 +1,6 @@
 <!-- Hrim Mariia -->
 <section class="vegetables" id="vegetables">
-  <div class="conteiner">
+  <div class="container">
     <!-- <div class="vegetables-conteiner"> -->
     <h3 class="vegetables-title">ORGANIC VEGATABLES</h3>
     <p class="vegetables-text">
@@ -13,139 +13,240 @@
       <li class="vegetables-item">
         <p class="vegetables-item-text">Carrot</p>
         <p class="vegetables-item-text1">Plant</p>
-
-        <img
-          srcset="
-                ./img/vegetables/carrot-mob-min.png 1x, ../img/vegetables/carrot-mob2x-min.png
-                ./img/vegetables/
-              "
-          src="./img/vegetables/carrot-mob-min.png"
-          class="vegetables-img"
-          alt="Carrot"
-          width="299"
-          height="249"
-        />
+        <picture class="vegetables-img">
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/vegetables/carrot-mob-min.png   1x,
+              ./img/vegetables/carrot-mob2x-min.png 2x
+            "
+          />
+          <source
+            media="(min-width: 768px) and (max-width:1279px)"
+            srcset="
+              ./img/vegetables/carrot-tab-min.png   1x,
+              ./img/vegetables/carrot-tab2x-min.png 2x
+            "
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./img/vegetables/carrot-tab-min.png   1x,
+              ./img/vegetables/carrot-tab2x-min.png 2x
+            "
+          />
+          <img src="./img/vegetables/carrot-mob-min.png" alt="carrot" />
+        </picture>
 
         <p class="vegetables-item-text2">100 UAH / kg</p>
       </li>
       <li class="vegetables-item">
         <p class="vegetables-item-text">Brussel sprouts</p>
         <p class="vegetables-item-text1">Plant</p>
-        <img
-          srcset="
-            ./img/vegetables/brussel-mob-min.png   1x,
-            ./img/vegetables/brussel-mob2x-min.png 2x
-          "
-          src="./img/vegetables/brussel-mob-min.png"
-          class="vegetables-img"
-          alt="Brussel"
-          width="299"
-          height="249"
-        />
+        <picture class="vegetables-img">
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/vegetables/brussel-mob-min.png   1x,
+              ./img/vegetables/brussel-mob2x-min.png 2x
+            "
+          />
+          <source
+            media="(min-width: 768px) and (max-width:1279px)"
+            srcset="
+              ./img/vegetables/brussel-tab-min.png   1x,
+              ./img/vegetables/brussel-tab2x-min.png 2x
+            "
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./img/vegetables/brussel-tab-min.png   1x,
+              ./img/vegetables/brussel-tab2x-min.png 2x
+            "
+          />
+          <img src="./img/vegetables/brussel-mob-min.png" alt="brussel" />
+        </picture>
 
         <p class="vegetables-item-text2">80 UAH / kg</p>
       </li>
       <li class="vegetables-item">
         <p class="vegetables-item-text">Tomato</p>
         <p class="vegetables-item-text1">Plant</p>
-        <img
-          srcset="
-            ./img/vegetables/tomato-mob-min.png   1x,
-            ./img/vegetables/tomato-mob2x-min.png 2x
-          "
-          src="./img/vegetables/tomato-mob-min.png"
-          class="vegetables-img"
-          alt="Tomato"
-          width="299"
-          height="249"
-        />
-        <svg class="vegetables-icon">
-          <use href="../img/vegetables/oval-defs.svg#icon-oval"></use>
-        </svg>
+        <picture class="vegetables-img">
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/vegetables/tomato-mob-min.png   1x,
+              ./img/vegetables/tomato-mob2x-min.png 2x
+            "
+          />
+          <source
+            media="(min-width: 768px) and (max-width:1279px)"
+            srcset="
+              ./img/vegetables/tomato-tab-min.png   1x,
+              ./img/vegetables/tomato-tab2x-min.png 2x
+            "
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./img/vegetables/tomato-tab-min.png   1x,
+              ./img/vegetables/tomato-tab2x-min.png 2x
+            "
+          />
+          <img src="./img/vegetables/tomato-tab-min.png  " alt="tomato" />
+        </picture>
+
         <p class="vegetables-item-text2">40 UAH / kg</p>
       </li>
       <li class="vegetables-item">
         <p class="vegetables-item-text">Eggplant</p>
         <p class="vegetables-item-text1">Plant</p>
-        <img
-          srcset="
-            ./img/vegetables/eggplant-mob-min.png   1x,
-            ./img/vegetables/eggplant-mob2x-min.png 2x
-          "
-          src="./img/vegetables/eggplant-mob-min.png"
-          class="vegetables-img"
-          alt="Eggplant"
-          width="299"
-          height="249"
-        />
+        <picture class="vegetables-img">
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/vegetables/egglant-mob-min.png   1x,
+              ./img/vegetables/egglant-mob2x-min.png 2x
+            "
+          />
+          <source
+            media="(min-width: 768px) and (max-width:1279px)"
+            srcset="
+              ./img/vegetables/egglant-tab-min.png   1x,
+              ./img/vegetables/egglant-tab2x-min.png 2x
+            "
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./img/vegetables/egglant-tab-min.png   1x,
+              ./img/vegetables/egglant-tab2x-min.png 2x
+            "
+          />
+          <img src="./img/vegetables/egglant-mob-min.png " alt="eggplant" />
+        </picture>
 
         <p class="vegetables-item-text2">60 UAH / kg</p>
       </li>
       <li class="vegetables-item">
         <p class="vegetables-item-text">Sweet potatoes</p>
         <p class="vegetables-item-text1">Plant</p>
-        <img
-          srcset="
-            ./img/vegetables/potatoes-mob-min.png   1x,
-            ./img/vegetables/potatoes-mob2x-min.png 2x
-          "
-          src="./img/vegetables/potatoes-mob-min.png"
-          class="vegetables-img"
-          alt="potatoes"
-          width="299"
-          height="249"
-        />
+        <picture class="vegetables-img">
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/vegetables/potatoes-mob-min.png   1x,
+              ./img/vegetables/potatoes-mob2x-min.png 2x
+            "
+          />
+          <source
+            media="(min-width: 768px) and (max-width:1279px)"
+            srcset="
+              ./img/vegetables/potatoes-tab-min.png   1x,
+              ./img/vegetables/potatoes-tab2x-min.png 2x
+            "
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./img/vegetables/potatoes-tab-min.png   1x,
+              ./img/vegetables/potatoes-tab2x-min.png 2x
+            "
+          />
+          <img src="./img/vegetables/potatoes-mob-min.png " alt="potatoes" />
+        </picture>
 
         <p class="vegetables-item-text2">80 UAH / kg</p>
       </li>
       <li class="vegetables-item">
         <p class="vegetables-item-text">Leek</p>
         <p class="vegetables-item-text1">Plant</p>
-        <img
-          srcset="
-            ./img/vegetables/leek-mob-min.png   1x,
-            ./img/vegetables/leek-mob2x-min.png 2x
-          "
-          src="./img/vegetables/leek-mob-min.png"
-          class="vegetables-img"
-          alt="Leek"
-          width="299"
-          height="249"
-        />
+        <picture class="vegetables-img">
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/vegetables/leek-mob-min.png   1x,
+              ./img/vegetables/leek-mob2x-min.png 2x
+            "
+          />
+          <source
+            media="(min-width: 768px) and (max-width:1279px)"
+            srcset="
+              ./img/vegetables/leek-tab-min.png   1x,
+              ./img/vegetables/leek-tab2x-min.png 2x
+            "
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./img/vegetables/leek-tab-min.png   1x,
+              ./img/vegetables/leek-tab2x-min.png 2x
+            "
+          />
+          <img src="./img/vegetables/leek-mob-min.png " alt="leek" />
+        </picture>
 
         <p class="vegetables-item-text2">50 UAH / kg</p>
       </li>
       <li class="vegetables-item">
         <p class="vegetables-item-text">Mushrooms</p>
         <p class="vegetables-item-text1">Plant</p>
-        <img
-          srcset="
-            ./img/vegetables/mushrooms-mob-min.png   1x,
-            ./img/vegetables/mushrooms-mob2x-min.png 2x
-          "
-          src="./img/vegetables/mushrooms-mob-min.png"
-          class="vegetables-img"
-          alt="Mushrooms"
-          width="299"
-          height="249"
-        />
+        <picture class="vegetables-img">
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/vegetables/mushrooms-mob-min.png   1x,
+              ./img/vegetables/mushrooms-mob2x-min.png 2x
+            "
+          />
+          <source
+            media="(min-width: 768px) and (max-width:1279px)"
+            srcset="
+              ./img/vegetables/mushrooms-tab-min.png   1x,
+              ./img/vegetables/mushrooms-tab2x-min.png 2x
+            "
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./img/vegetables/mushrooms-tab-min.png   1x,
+              ./img/vegetables/mushrooms-tab2x-min.png 2x
+            "
+          />
+          <img src="./img/vegetables/mushrooms-mob-min.png " alt="mushrooms" />
+        </picture>
 
         <p class="vegetables-item-text2">40 UAH / kg</p>
       </li>
       <li class="vegetables-item">
         <p class="vegetables-item-text">Corn</p>
         <p class="vegetables-item-text1">Plant</p>
-        <img
-          srcset="
-            ./img/vegetables/corn-mob-min.png   1x,
-            ./img/vegetables/corn-mob2x-min.png 2x
-          "
-          src="./img/vegetables/corn-mob-min.png"
-          class="vegetables-img"
-          alt="Corn"
-          width="299"
-          height="249"
-        />
+        <picture class="vegetables-img">
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/vegetables/corn-mob-min.png   1x,
+              ./img/vegetables/corn-mob2x-min.png 2x
+            "
+          />
+          <source
+            media="(min-width: 768px) and (max-width:1279px)"
+            srcset="
+              ./img/vegetables/corn-tab-min.png   1x,
+              ./img/vegetables/corn-tab2x-min.png 2x
+            "
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./img/vegetables/corn-tab-min.png   1x,
+              ./img/vegetables/corn-tab2x-min.png 2x
+            "
+          />
+          <img src="./img/vegetables/corn-mob-min.png " alt="corn" />
+        </picture>
 
         <p class="vegetables-item-text2">60 UAH / kg</p>
       </li>
@@ -157,7 +258,7 @@
             ./img/vegetables/radish-tab-min.png   1x,
             ./img/vegetables/radish-tab2x-min.png 2x
           "
-          src="../img/vegetables/radish-tab-min.png"
+          src="./img/vegetables/radish-tab-min.png"
           class="vegetables-img"
           alt="Radish"
           width="299"
@@ -170,7 +271,7 @@
 
     <button type="button" class="vegetables-btn" data-modal-open>
       <svg class="vegetables-vector">
-        <use href="../img/vegetables/oval-defs.svg#icon-vector-4"></use></svg
+        <use href="./img/vegetables/oval-defs.svg#icon-vector-4"></use></svg
       >ORDER
     </button>
   </div>
