@@ -7,8 +7,7 @@
   font-family: var(--sub-title-font);
   color: var(--text-color);
   text-align: center;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
-  font-family: 'DM Sans', sans-serif;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);  
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
@@ -24,7 +23,6 @@
   color: var(--text-color);
   text-align: center;
   text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
-  font-family: 'DM Sans', sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -56,8 +54,7 @@
   border-radius: 100px;
   background: #fc8a11;
   border: none;
-  color: #fff;
-  font-family: 'DM Sans', sans-serif;
+  color: #fff;  
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -84,6 +81,7 @@
   background-size: 41px 41px;
   background-repeat: repeat;
   margin: 0 auto;
+  margin-left: 0;
 }
 /* .will-background {
   height: 388px;
@@ -176,6 +174,7 @@
   .will-container {
     display: flex;
     flex-wrap: nowrap;
+    gap: 77px;
   }
   .girl-img-tab {
     display: none;
@@ -239,6 +238,7 @@ margin: 0;
     width: 525px;
     height: 536px;
     margin-right:  0;
+
   }
 
 }
