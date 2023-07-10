@@ -4,7 +4,9 @@
   | default @import url()
   |============================
 */
+@import url('./aos.css');
 @import url('./fonts.css');
+@import url('./vars.css');
 @import url('./reset.css');
 @import url('./header.css');
 @import url('./hero.css');
@@ -14,24 +16,3 @@
 @import url('./will-call.css');
 @import url('./footer.css');
 @import url('./modal.css');
-
-:root {
-  --text-color: #141414;
-  --background-color: #ffffff;
-  --white-color: #ffffff;
-  --green-background: #a1c487;
-  --light-green-background: #eaf7e5;
-  --orange-background: #fc8a11;
-  --sand-background: #faf3e7;
-  --gray-color: #f3f3f3;
-  --main-font: 'DM Sans Regular'; /*400 font weight*/ 
-  --sub-title-font: 'DM Sans Medium'; /*500*/
-  --title-font: 'DM Sans Bold'; /*700*/
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
-

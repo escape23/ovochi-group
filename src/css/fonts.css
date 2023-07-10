@@ -36,3 +36,17 @@
   font-style: normal;
   font-display: swap;
 }
+
+@font-face {
+  font-family: 'DM Sans Medium Italic';
+  src: url('../fonts/DMSans-MediumItalic.eot');
+  src: url('../fonts/DMSans-MediumItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/DMSans-MediumItalic.woff2') format('woff2'),
+    url('../fonts/DMSans-MediumItalic.woff') format('woff'),
+    url('../fonts/DMSans-MediumItalic.ttf') format('truetype'),
+    url('../fonts/DMSans-MediumItalic.svg#DMSans-MediumItalic') format('svg');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
