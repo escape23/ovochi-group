@@ -15,6 +15,7 @@
     align-items: center;
 }
 .header-logo-link {
+    font-family: var(--title-font);
     display: flex;
     color: var(--text-color);
 font-weight: 700;
