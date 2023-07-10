@@ -13,8 +13,8 @@
     />
     <title>Veggie Boost</title>
     
-    <script type="module" crossorigin src="/ovochi-group/assets/index-20e62f88.js"></script>
-    <link rel="stylesheet" href="/ovochi-group/assets/index-887aa7c5.css">
+    <script type="module" crossorigin src="/ovochi-group/assets/index-6cb4ae12.js"></script>
+    <link rel="stylesheet" href="/ovochi-group/assets/index-f7ef2ad8.css">
   </head>
   <body>
     <!-- Vladyslav Savytskyi -->
@@ -483,8 +483,14 @@
     <footer class="footer">
     <div class="container footer-container">
         <div class="footer-main">
-            <img srcset="/ovochi-group/assets/footer-broccoli-8768bd94.jpg 1x, /ovochi-group/assets/footer-broccoli-2x-97afaeac.jpg 2x"
-                src="/ovochi-group/assets/footer-broccoli-8768bd94.jpg" alt="A tasty broccoli" class="footer-main-img">
+            <picture>
+                <source media="(max-width: 767px)"
+                    srcset="/ovochi-group/assets/footer-broccoli-8768bd94.jpg 1x, /ovochi-group/assets/footer-broccoli-2x-97afaeac.jpg 2x">
+                <source media="(min-width: 768px)"
+                    srcset="/ovochi-group/assets/footer-broccoli-tablet-pc-12f5b0b4.jpg 1x, /ovochi-group/assets/footer-broccoli-tablet-pc-2x-d8bd9d87.jpg 2x">
+                <img src="/ovochi-group/assets/footer-broccoli-8768bd94.jpg" alt="A tasty broccoli" class="footer-main-img">
+            </picture>
+
             <a href="./index.html" class="footer-main-logo">
                 <svg width="16" height="16">
                     <use href="../img/icons.svg#icon-logo"></use>
@@ -492,7 +498,7 @@
                 veggieboost
             </a>
         </div>
-        <nav>
+        <nav class="footer-nav-wrap">
             <ul class="footer-nav">
                 <li><a href="">How It Works</a></li>
                 <li><a href="">Vegetables</a></li>
@@ -503,21 +509,21 @@
             <ul class="footer-socials-list">
                 <li>
                     <a href="" class="footer-socials-item">
-                        <svg width="24" height="24" class="footer-socials-icon">
+                        <svg class="footer-socials-icon">
                             <use href="/ovochi-group/assets/icons-39a4e030.svg#icon-facebook"></use>
                         </svg>
                     </a>
                 </li>
                 <li>
                     <a href="" class="footer-socials-item">
-                        <svg width="24" height="24" class="footer-socials-icon">
+                        <svg class="footer-socials-icon">
                             <use href="/ovochi-group/assets/icons-39a4e030.svg#icon-instagram"></use>
                         </svg>
                     </a>
                 </li>
                 <li>
                     <a href="" class="footer-socials-item">
-                        <svg width="24" height="24" class="footer-socials-icon">
+                        <svg class="footer-socials-icon">
                             <use href="/ovochi-group/assets/icons-39a4e030.svg#icon-youtube"></use>
 
                         </svg>
@@ -534,8 +540,8 @@
                 </address>
             </div>
         </div>
+    </div>
 </footer>
-
 
     <!-- Volodymyr Boiko -->
     <div class="backdrop is-hidden" data-modal>
