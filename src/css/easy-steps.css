@@ -1,2 +1,131 @@
-.steps{
+.steps {
+    max-width: 428px;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+}
+
+.easy-steps-container {
+    border-radius: 40px;
+    background-color: var(--sand-background);
+    background-image: radial-gradient(rgba(161, 196, 135, 0.31) 2.5px,
+            transparent 0);
+    background-size: 41px 41px;
+    background-repeat: repeat;
+    padding: 40px 20px 0 20px;
+}
+
+.easy-steps-text {
+
+}
+
+.easy-steps-title {
+    color: var(--text-color);
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+    font-family: 'DM Sans Medium';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.96px;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+
+.easy-steps-list {
+
+}
+
+.easy-steps-item {
+    color: var(--text-color);
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+    font-family: 'DM Sans Medium';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.56px;
+    padding-bottom: 20px;
+}
+
+.easy-steps-img {
+
+}
+
+.easy-steps-img-desk {
+    display: none;
+}
+
+.easy-steps-img-tab {
+    display: none;
+}
+
+.easy-steps-img-mob {
+    padding: 0 auto;
+}
+
+@media screen and (min-width: 375px) {}
+
+@media screen and (min-width: 768px) {
+    .steps {
+        max-width: 704px;
+    }
+
+    .easy-steps-container {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 40px;
+        padding-left: 0;
+    }
+
+.easy-steps-text {
+margin-right: 40px;
+    width: 274px;
+}
+
+    .easy-steps-title {
+        font-size: 28px;
+        line-height: 32px;
+        letter-spacing: -1.12px;
+    }
+
+    .easy-steps-img-mob {
+        display: none;
+    }
+
+    .easy-steps-img-tab {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+.steps {
+    max-width: 1216px;
+}
+
+.easy-steps-container {
+gap: 110px;
+}
+
+.easy-steps-text {
+    margin-right: 60px;
+    width: 512px;
+}
+
+    .easy-steps-title {
+        font-size: 40px;
+        line-height: 44px;
+        letter-spacing: -1.6px;
+    }
+
+    .easy-steps-item {
+        width: 289px;
+    }
+
+    .easy-steps-img-tab {
+        display: none;
+    }
+
+    .easy-steps-img-desk {
+        display: block;
+    }
 }
