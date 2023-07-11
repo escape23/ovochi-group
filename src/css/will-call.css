@@ -16,7 +16,7 @@
   max-width: 323px;
   margin-bottom: 20px;
 }
-.will-text {
+.will-text { 
   font-family: var(--main-font);
   display: block;
   margin: 0 auto;
@@ -45,6 +45,28 @@
   border-radius: 100px;
   border: 1px solid var(--text-color);
   opacity: 0.30000001192092896;
+}
+
+.hint-recal:after{
+  content: attr(data-title);
+  position: absolute;
+  top: -80%;
+  left: 10px;
+  width: 190px;
+  background: lightblue;
+  border-radius: 30px;
+  padding: 5px 20px;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition:0.34s linear;
+  color: #fff;
+  box-shadow:0 5px 12px #ccc;
+  pointer-events: none;
+}
+
+.hint-recal:hover:after{
+  opacity: 1;
+  transform: translateY(0);  
 }
 .will-button {
   font-family: var(--main-font);
@@ -150,6 +172,16 @@
   .recall-iput {
     width: 350px;
     margin-left: 189.5px;
+  }
+  .hint-recal:after{
+    content: attr(data-title);
+    position: absolute;
+    top: -80%;
+    left: 30%;
+    width: 195px;
+    background: lightblue;
+
+
   }
   .will-girl {
     width: 704px;
