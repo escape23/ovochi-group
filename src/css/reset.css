@@ -1,8 +1,4 @@
 /* Reset styles */
-html {
-  overflow-x: hidden;
-}
-
 body {
   font-family: var(--main-font);
   color: var(--text-color);
@@ -12,6 +8,7 @@ body {
 }
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 h1,
 h2,
