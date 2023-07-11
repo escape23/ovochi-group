@@ -3,6 +3,7 @@
     width: 100%;
     height: 100%;
     background-color: rgba(46, 47, 66, 0.4);
+    transition: opacity 450ms linear, visibility 450ms linear;
     overflow-y: scroll;}
 .modal{
     position: absolute;
@@ -60,9 +61,18 @@
     width: 100%;
     height: 119px;
     position: relative;
+    transition-property: background-color, transform;
+    transition-duration: 450ms;
+    transition-timing-function: linear;
+    transition-delay: 0;
 }
-.modal-check {
+
+.modal-products-item:is(:hover, :active) {
+    background-color: var(--orange-background);
+    transform: scale(1.05);
+    
 }
+
 .modal-check img {position: absolute;
     bottom: 8px;
     right: 15px
@@ -84,13 +94,14 @@
     }
 .check-icon{width: 6px;
     height: 6px}
+
 .products-check:checked + .check-block span {
     fill: var(--green-background)
 }
 
 .modal-subtitle {
     font-size: 18px;
-    font-family: var(main-font/sub-title-font/title-font);
+    font-family: var(--title-font);
     font-style: normal;
     line-height: 1.33;
     letter-spacing: -0.04em;
@@ -99,7 +110,7 @@
     }
 .modal-text {  
     font-size: 14px;
-    font-family: var(main-font/sub-title-font/title-font);
+    font-family: var(--main-font);
     font-style: normal;
     line-height: 1.29;
     letter-spacing: -0.02em;
