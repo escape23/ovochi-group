@@ -109,8 +109,9 @@
   border-radius: 1000px;
   border: 1px solid var(--white-color);
   font-family: var(--sub-title-font);
+  transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
 }
-.hero-tag-item:first-child .hero-tag-span {
+.hero-tag-span:is(:hover, :focus) {
   background-color: var(--white-color);
   color: var(--text-color);
 }

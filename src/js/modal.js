@@ -5,6 +5,7 @@ const refs = {
 };
 
 refs.openModalBtn.forEach(btn => {
+  console.log(btn);
   btn.addEventListener('click', toggleModal);
 });
 refs.closeModalBtn.addEventListener('click', toggleModal);
