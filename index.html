@@ -13,13 +13,13 @@
     />
     <title>Veggie Boost</title>
     
-    <script type="module" crossorigin src="/ovochi-group/assets/index-586c99a7.js"></script>
-    <link rel="stylesheet" href="/ovochi-group/assets/index-19966c7c.css">
+    <script type="module" crossorigin src="/ovochi-group/assets/index-c42067c0.js"></script>
+    <link rel="stylesheet" href="/ovochi-group/assets/index-ffeba7f1.css">
   </head>
   <body>
     <!-- Vladyslav Savytskyi -->
 
-    <header class="header">
+    <header class="header" id="header">
   <div class="header-container container">
     <nav class="header-navigation">
       <ul class="header-menu-list list">
@@ -77,14 +77,13 @@
           <a href="#will" class="mob-menu-link">Contacts</a>
         </li>
         <li class="mob-menu-item">
-          <button type="button" class="mob-menu-basket">
-        <svg class="mob-menu-svg" width="24" height="24">
-          <use href="/ovochi-group/assets/icons-39a4e030.svg#icon-cart"></use>
-        </svg>
-      </button>
+          <button type="button" class="mob-menu-basket" data-modal-open>
+            <svg class="mob-menu-svg" width="24" height="24">
+              <use href="/ovochi-group/assets/icons-39a4e030.svg#icon-cart"></use>
+            </svg>
+          </button>
         </li>
       </ul>
-      
     </div>
   </div>
 </header>
@@ -92,7 +91,7 @@
 
     <main>
       <!-- Yana Egorova -->
-      <section class="hero">
+      <section class="hero" id="hero">
   <div class="container">
     <div class="hero-left" data-aos="fade-up" data-aos-duration="2500">
       <ul class="hero-reviews-list">
@@ -164,16 +163,16 @@
       <!-- </div> -->
       <ul class="hero-tag-list">
         <li class="hero-tag-item">
-          <span class="hero-tag-span">#organic</span>
+          <a href="#hero" class="hero-tag-span">#organic</a>
         </li>
         <li class="hero-tag-item">
-          <span class="hero-tag-span">#products</span>
+          <a href="#vegetables" class="hero-tag-span">#products</a>
         </li>
         <li class="hero-tag-item">
-          <span class="hero-tag-span">#basket</span>
+          <a href="#works" class="hero-tag-span">#basket</a>
         </li>
         <li class="hero-tag-item">
-          <span class="hero-tag-span">#vegetables</span>
+          <a href="#easy-steps" class="hero-tag-span">#vegetables</a>
         </li>
       </ul>
     </div>
@@ -672,6 +671,12 @@
     </div>
 </div>
 
+
+    <a href="#header" class="btn-to-top">
+      <svg class="top-icon" width="20" height="20">
+        <use href="/ovochi-group/assets/oval-defs-74891636.svg#icon-vector-4"></use>
+      </svg>
+    </a>
 
     
   </body>
