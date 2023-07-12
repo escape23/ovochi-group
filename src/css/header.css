@@ -5,7 +5,7 @@
 }
 
 .header-logo-icon {
-  fill: #77ac63;
+  fill: var(--green-icons);
   margin-right: 8px;
 }
 
@@ -15,10 +15,9 @@
   align-items: center;
 }
 .header-logo-link {
-  font-family: var(--title-font);
   display: flex;
   color: var(--text-color);
-  font-weight: 700;
+  font-family: var(--title-font);
   line-height: 1.29;
   letter-spacing: -0.56px;
   text-transform: uppercase;
@@ -43,27 +42,33 @@
   justify-content: center;
   align-items: center;
   padding: 0;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mob-open-icon {
-  fill: #77ac63;
+  fill: var(--green-icons);
 }
+
 .mob-menu {
   position: fixed;
   top: 0;
-  z-index: 10;
+  z-index: 2;
   width: 100%;
   height: 100%;
   background-color: var(--green-background);
   display: flex;
   flex-direction: column;
-  transform: translateX(0);
-  transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
   overflow: auto;
+  transform: translateX(0);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+.mob-menu.is-hidden {
+  transform: translateX(50%);
 }
-
 .mob-menu-top {
   margin-bottom: 124px;
-  background-color: #fff;
+  background-color: var(--background-color);
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -75,7 +80,7 @@
   justify-content: center;
   align-items: center;
   padding: 0;
-  stroke: #77ac63;
+  stroke: var(--green-icons);
 }
 
 .mob-menu-nav {
@@ -88,9 +93,9 @@
   justify-content: center;
   flex-direction: column;
   gap: 16px;
-  color: #fff;
+  color: var(--background-color);
   font-size: 14px;
-  font-weight: 400;
+  font-family: var(--main-font);
   line-height: 1.29;
   letter-spacing: -0.56px;
 }
@@ -102,7 +107,7 @@
   border: none;
 }
 .mob-menu-svg {
-  stroke: #fff;
+  stroke: var(--background-color);
   fill: transparent;
 }
 
@@ -115,13 +120,12 @@
     display: flex;
     flex-direction: row;
     gap: 14px;
-    color: #141414;
+    color: var(--text-color);
     font-size: 14px;
-    font-weight: 400;
+    font-family: var(--main-font);
     line-height: 1.29;
     letter-spacing: -0.56px;
     margin-right: 86px;
-    font-family: 'DM Sans Medium';
   }
 
   .mob-menu-open {
@@ -134,7 +138,7 @@
     background-color: transparent;
   }
   .header-btn-icon {
-    stroke: #141414;
+    stroke: var(--text-color);
     fill: transparent;
   }
 }
