@@ -16,23 +16,24 @@
 
 .order-caption {
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.10);
-  font-family: 'DM Sans Medium';
+  font-family: var(--sub-title-font);
   font-size: 28px;
   font-weight: 500;
   line-height: 32px;
   letter-spacing: -1.12px;
   text-transform: uppercase;
   margin-bottom: 20px;
+  color: var(--text-color);
 }
 
 .order-text {
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.10);
-  font-family: 'DM Sans Regular';
+  font-family: var(--main-font);
   font-size: 18px;
   font-weight: 400;
   line-height: 1.33;
   letter-spacing: -0.04em;
-  color: #141414;
+  color: var(--text-color);
 }
 
 .order-text-left {
