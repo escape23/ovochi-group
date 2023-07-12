@@ -1,0 +1,20 @@
+:root {
+  --text-color: #141414;
+  --background-color: #ffffff;
+  --white-color: #ffffff;
+  --green-background: #a1c487;
+  --light-green-background: #eaf7e5;
+  --orange-background: #fc8a11;
+  --sand-background: #faf3e7;
+  --gray-color: #f3f3f3;
+  --main-font: 'DM Sans Regular'; /*400 font weight*/
+  --sub-title-font: 'DM Sans Medium'; /*500*/
+  --title-font: 'DM Sans Bold'; /*700*/
+  --sub-title-italic-font: 'DM Sans Medium Italic';
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}

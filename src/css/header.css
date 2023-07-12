@@ -47,6 +47,7 @@
 .mob-open-icon {
   fill: var(--green-icons);
 }
+
 .mob-menu {
   position: fixed;
   top: 0;
@@ -97,7 +98,6 @@
   font-family: var(--main-font);
   line-height: 1.29;
   letter-spacing: -0.56px;
-  
 }
 
 .mob-menu-basket {
