@@ -7,8 +7,7 @@
   font-family: var(--sub-title-font);
   color: var(--text-color);
   text-align: center;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
-  font-family: 'DM Sans', sans-serif;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);  
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
@@ -17,14 +16,13 @@
   max-width: 323px;
   margin-bottom: 20px;
 }
-.will-text {
+.will-text { 
   font-family: var(--main-font);
   display: block;
   margin: 0 auto;
   color: var(--text-color);
   text-align: center;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
-  font-family: 'DM Sans', sans-serif;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -48,6 +46,28 @@
   border: 1px solid var(--text-color);
   opacity: 0.30000001192092896;
 }
+
+.hint-recal:after{
+  content: attr(data-title);
+  position: absolute;
+  top: -80%;
+  left: 10px;
+  width: 190px;
+  background: lightblue;
+  border-radius: 30px;
+  padding: 5px 20px;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition:0.34s linear;
+  color: #fff;
+  box-shadow:0 5px 12px #ccc;
+  pointer-events: none;
+}
+
+.hint-recal:hover:after{
+  opacity: 1;
+  transform: translateY(0);  
+}
 .will-button {
   font-family: var(--main-font);
   position: absolute;
@@ -56,8 +76,7 @@
   border-radius: 100px;
   background: #fc8a11;
   border: none;
-  color: #fff;
-  font-family: 'DM Sans', sans-serif;
+  color: #fff;  
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -84,6 +103,7 @@
   background-size: 41px 41px;
   background-repeat: repeat;
   margin: 0 auto;
+  margin-left: 0;
 }
 /* .will-background {
   height: 388px;
@@ -153,6 +173,16 @@
     width: 350px;
     margin-left: 189.5px;
   }
+  .hint-recal:after{
+    content: attr(data-title);
+    position: absolute;
+    top: -80%;
+    left: 30%;
+    width: 195px;
+    background: lightblue;
+
+
+  }
   .will-girl {
     width: 704px;
     height: 463px;
@@ -176,6 +206,7 @@
   .will-container {
     display: flex;
     flex-wrap: nowrap;
+    gap: 77px;
   }
   .girl-img-tab {
     display: none;
@@ -200,7 +231,7 @@
   font-family: var(--sub-title-font);
   text-align: start;  
   max-width: 590px;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.10);
 font-size: 48px;
 font-style: normal;
 font-weight: 500;
@@ -239,6 +270,7 @@ margin: 0;
     width: 525px;
     height: 536px;
     margin-right:  0;
+
   }
 
 }
