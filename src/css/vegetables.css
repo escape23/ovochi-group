@@ -194,7 +194,8 @@
   fill: var(--white-color);
   margin-right: 4px;
 }
-.vegetables-btn:focus {
+.vegetables-btn:focus, 
+.vegetables-btn:hover{
   background-color: var(--green-background);
 }
 
