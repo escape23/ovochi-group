@@ -101,7 +101,7 @@
 }
 
 .mob-menu-link{
-  color: var(--text-color);
+  /* color: var(--text-color); */
   transition: color 250ms ease-in-out;
   line-height: 1.28;
   letter-spacing: -0.56px;
