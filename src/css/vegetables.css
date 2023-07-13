@@ -156,7 +156,7 @@
   padding-left: 30px;
 }
 .vegetable-cover-text1 {
-  color: #cfcfcf;
+  color: var(--white-color);
   font-family: var(--sub-title-font);
   font-size: 20px;
   font-style: normal;
@@ -194,8 +194,8 @@
   fill: var(--white-color);
   margin-right: 4px;
 }
-.vegetables-btn:focus, 
-.vegetables-btn:hover{
+.vegetables-btn:focus,
+.vegetables-btn:hover {
   background-color: var(--green-background);
 }
 
