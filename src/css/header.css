@@ -100,6 +100,17 @@
   letter-spacing: -0.56px;
 }
 
+.mob-menu-link{
+  color: var(--text-color);
+  transition: color 250ms ease-in-out;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+}
+.mob-menu-link:hover,
+.mob-menu-link:focus{
+  color: var(--green-background);
+}
+
 .mob-menu-basket {
   justify-content: center;
   align-items: center;
@@ -140,6 +151,11 @@
   .header-btn-icon {
     stroke: var(--text-color);
     fill: transparent;
+    transition: stroke 250ms ease-in-out;
+  }
+  .header-btn-icon:hover,
+  .header-btn-icon:focus{
+    stroke: var(--green-background);
   }
 }
 @media screen and (min-width: 1280px) {
